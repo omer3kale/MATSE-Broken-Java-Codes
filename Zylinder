@@ -1,0 +1,26 @@
+public class Zylinder{
+    double h;
+    double r;
+
+    public Zylinder(double h, double r){
+        this.h = h;
+        this.r = r;
+    }
+
+    public double getH(){
+        return h;
+    }
+
+    public double getR(){
+        return r;
+    }
+
+    public void setH(){
+        this.h = h;
+    }
+
+    public void setR(){
+        this.r = r;
+    }
+    
+}
